@@ -25,7 +25,7 @@ const TaskInput = () => {
       />
       <Button
         variant="contained"
-        color="primary"
+        color="success"
         onClick={handleAddTask}
         style={{ marginLeft: "10px" }}
       >

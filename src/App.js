@@ -7,7 +7,13 @@ import "./App.css";
 function App() {
   return (
     <Container maxWidth="sm">
-      <Typography variant="h3" component="h1" align="center" gutterBottom>
+      <Typography
+        style={{ margin: "2vh" }}
+        variant="h3"
+        component="h1"
+        align="center"
+        gutterBottom
+      >
         To-Do List
       </Typography>
       <TaskInput />

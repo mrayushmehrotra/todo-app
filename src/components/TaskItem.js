@@ -9,6 +9,7 @@ import {
   TextField,
 } from "@mui/material";
 import { Delete, Edit } from "@mui/icons-material";
+import "../App.css";
 
 const TaskItem = ({ task }) => {
   const dispatch = useDispatch();
@@ -35,7 +36,7 @@ const TaskItem = ({ task }) => {
   };
 
   return (
-    <ListItem>
+    <ListItem id="taskItems">
       <Checkbox checked={task.completed} onChange={handleToggleComplete} />
       {isEditing ? (
         <TextField
